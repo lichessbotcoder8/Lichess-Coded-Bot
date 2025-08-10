@@ -2,8 +2,8 @@ token: "lip_wQu97zZp90KleIVaMUYn"    # Lichess OAuth2 Token.
 url: "https://lichess.org/"        # Lichess base URL.
 
 engine:                            # Engine settings.
-  dir: "./engines/"                # Directory containing the engine. This can be an absolute path or one relative to lichess-bot/.
-  name: "Stockfish.exe"              # Binary name of the engine to use.
+  dir: "."                # Directory containing the engine. This can be an absolute path or one relative to lichess-bot/.
+  name: "stockfish"              # Binary name of the engine to use.
 # interpreter: "java"
 # interpreter_options:
 #   - "-jar"
